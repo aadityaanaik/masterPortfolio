@@ -1,7 +1,6 @@
 git remote remove origin
 rm -rf .git
-npm install
-npm run build
+npm install && npm run build
 cd build
 git init
 git remote add origin https://github.com/NaikRyder/NaikRyder.github.io.git

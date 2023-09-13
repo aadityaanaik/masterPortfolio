@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Daily Stock Price Direction Prediction using Random Multi-Layer Perceptron",
+      "createdAt": "2022-01-10T16:26:54Z",
+      "url": "https://ieeexplore.ieee.org/document/9670927",
+      "description": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "isFork": false,
+      "languages": [
+        {}
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Handwritten Digit Recognition Using Support Vector Machine",
+      "createdAt": "2020-07-31T16:26:54Z",
+      "url": "https://www.ijcseonline.org/full_paper_view.php?paper_id=5183",
+      "description": "International Journal of Computer Sciences and Engineering (IJCSE)",
+      "isFork": false,
+      "languages": [
+        {}
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "IoT Medical Attendee",
+      "createdAt": "2018-02-08T16:26:54Z",
+      "url": "https://ieeexplore.ieee.org/document/8529456",
+      "description": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "isFork": false,
+      "languages": [
+        {}
+      ]
+    }
+  ]
+}

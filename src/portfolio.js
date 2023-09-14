@@ -288,7 +288,7 @@ const degrees = {
       alt_name: "TAMU",
       duration: "2022 - 2024",
       descriptions: [
-        "-- Rewarded full fuition waiver for research in Technical Education",
+        "-- Rewarded full tuition waiver for research in Technical Education",
         "-- Coursework:",
         "⚡ Data Warehousing",
         "⚡ Database Management",

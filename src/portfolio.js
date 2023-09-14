@@ -114,9 +114,8 @@ const skills = {
       title: "Data Analytics & Visualization",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Performing data extraction, cleaning, transformation through dataframes",
-        "⚡ Creating comprehensive operational reporting dashboards",
-        "⚡ Demonstrate statistical data through a collection of graphs and plots",
+        "⚡ Working with dataframes to optimize data management for both Relational and NoSQL databases",
+        "⚡ Creating comprehensive operational reporting dashboards with plots and graphs",
         "⚡ Generating visual representations of servers through parameters like health, memory and speed",
       ],
       softwareSkills: [

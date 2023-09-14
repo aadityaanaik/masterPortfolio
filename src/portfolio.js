@@ -61,9 +61,9 @@ const skills = {
       title: "Data Engineering & Pipelines",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Design robust data pipelines that extracted, loaded, and transformed financial data",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Designing robust pipelines that extract, load, and transform data",
+        "⚡ Achieving lossless data transmission through techniques like micro-batching and watermark",
+        "⚡ Patching data streaming services through migration of message brokers",
       ],
       softwareSkills: [
         {
@@ -114,9 +114,10 @@ const skills = {
       title: "Data Analytics & Visualization",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Performing data extraction, cleaning, transformation through dataframes",
+        "⚡ Creating comprehensive operational reporting dashboards",
+        "⚡ Demonstrate statistical data through a collection of graphs and plots",
+        "⚡ Generating visual representations of servers through parameters like health, memory and speed",
       ],
       softwareSkills: [
         {
@@ -160,9 +161,9 @@ const skills = {
       title: "Database & Cloud Computing",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Deploying and maintaining processes on virtual machine instances along with integration of databases",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Defining intricate data models and devising advanced database designs",
+        "⚡ Optimizing query performance through partitioning, bucketing, and indexing strategies",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on cloud platforms",
       ],
       softwareSkills: [
         {
@@ -220,9 +221,9 @@ const skills = {
       title: "DevOps & CI-CD",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Building a CI-CD architecture and streamlining deployment strategy",
+        "⚡ Automating complex jobs through build scripts and APIs",
+        "⚡ Releasing and maintaining processes on virtual machine instances through deployment pipelines",
       ],
       softwareSkills: [
         {

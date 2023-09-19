@@ -73,7 +73,7 @@
 
 .card-body {
   /* background-color: #00FF00; */
-  border-bottom: 1px solid #d9dbdf;
+  border-bottom: 10px solid #d9dbdf;
   border-left: 1px solid #d9dbdf;
   border-right: 1px solid #d9dbdf;
   border-radius: 7px;

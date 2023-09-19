@@ -15,11 +15,17 @@ class ExperienceCard extends Component {
       >
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
+          <a
+            href={experience["company_url"]}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className="experience-card-logo"
               src={require(`../../assets/images/${experience["logo_path"]}`)}
               alt=""
             />
+            </a>
           </div>
         </Fade>
         <div className="experience-card-stepper">

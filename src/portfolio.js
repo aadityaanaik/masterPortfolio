@@ -442,7 +442,7 @@ const publicationsHeader = {
 };
 
 const involvementsHeader = {
-  title: "Extra Curricular",
+  title: "Extra - Curricular",
   description:
     "My extra curricular activities encompass leadership, public speaking, and other impactful contributions, reflecting a well-rounded commitment to technology and education.",
   avatar_image_path: "projects_image.svg",
@@ -454,8 +454,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
       name: "Machine Learning Expert",
       createdAt: "2021-05-07T16:26:54Z",
-      description: "All India Council of Technical Education (AICTE)",
-      url: "https://www.ijcseonline.org/full_paper_view.php?paper_id=5183",
+      description: "All India Council of Technical Education",
+      url: "https://www.aicte-india.org/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
@@ -469,7 +469,7 @@ const publications = {
       name: "Emcee",
       createdAt: "2018-02-08T16:26:54Z",
       description: "HSBC Technologies, India",
-      url: "https://ieeexplore.ieee.org/document/8529456",
+      url: "https://hsbc.com/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzW=",

@@ -11,6 +11,12 @@ class DegreeCard extends Component {
         {degree.logo_path && (
           <Flip left duration={2000}>
             <div className="card-img">
+              {degree.website_link && (
+                <a
+                  href={degree.website_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
               <img
                 style={{
                   maxWidth: "100%",
@@ -20,6 +26,7 @@ class DegreeCard extends Component {
                 src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
+              </a>)}
             </div>
           </Flip>
         )}
@@ -54,22 +61,6 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
-              {degree.website_link && (
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
-                    </p>
-                  </div>
-                </a>
-              )}
             </div>
           </div>
         </Fade>

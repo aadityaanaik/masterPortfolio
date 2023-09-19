@@ -27,9 +27,12 @@ class Education extends Component {
                 <h1 className="heading-text" style={{ color: theme.text }}>
                   Education
                 </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifications
-                </h3>
+                    <p
+                      className="experience-header-detail-text subTitle"
+                      style={{ color: theme.secondaryText }}
+                    >
+                        My qualifications showcase my commitment to a well-rounded education in areas essential for a successful career in technology and information management.
+                </p>
               </div>
             </div>
           </Fade>

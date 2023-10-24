@@ -8,8 +8,6 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Aditya's Portfolio",
-  description:
-    "I am a dedicated and driven professional with a passion for data and innovation. I can leverage my technical expertise and collaborative spirit to contribute to a dynamic team and help drive business growth.",
   og: {
     title: "Aditya Naik Portfolio",
     type: "website",
@@ -22,7 +20,7 @@ const greeting = {
   title: "Aditya Naik",
   logo_name: "AdityaNaik",
   subTitle:
-    "I am a dedicated and driven professional with a passion for data and innovation. I can leverage my technical expertise and collaborative spirit to contribute to a dynamic team and help drive business growth.",
+    "I'm on the prowl for roles that make data come to life – from crafting pipelines to diving into analysis. I'm the Sherlock Holmes of data, seeking out hidden stories. If you've got a challenge, I've got the skills!",
   resumeLink:
     "https://drive.google.com/file/d/1nB1L6fKjJ0eOWvowtoUg2xWibNJSa4JF/view?usp=sharing",
   githubProfile: "https://github.com/naikryder",

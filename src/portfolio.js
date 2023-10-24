@@ -392,7 +392,7 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "Technical Lead",
+          title: "Engineer",
           company: "The Robotics Forum",
           company_url: "https://www.vitpunerobotics.com/#/",
           logo_path: "trf.png",

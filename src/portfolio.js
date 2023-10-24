@@ -392,7 +392,7 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "Engineer",
+          title: "Technical Lead",
           company: "The Robotics Forum",
           company_url: "https://www.vitpunerobotics.com/#/",
           logo_path: "trf.png",
@@ -410,7 +410,7 @@ const experience = {
           duration: "August 2016 - May 2017",
           location: "Pune, India",
           description:
-            "Part of the programming team for the underwater robot submarine  and organized workshops covering concepts of programming and robotics to raise funds for Singapore’s Autonomous Underwater Vehicle challenge",
+            "Part of the programming team for the underwater robot submarine and organized workshops covering concepts of programming and robotics to raise funds for Singapore’s Autonomous Underwater Vehicle challenge",
           color: "#D83B01",
         },
       ],

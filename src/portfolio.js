@@ -48,7 +48,7 @@ const socialMediaLinks = [
 const skills = {
     data1: [
     {
-      title: "ETL/ELT Data Pipeline",
+      title: "ETL/ELT Data Pipelines",
     //      fileName: "DesignImg",
       skills: [
         "Design, implement, and maintain robust data pipelines to efficiently and reliably move data from various sources to its destination, ensuring data quality, timeliness, and scalability"
@@ -256,7 +256,7 @@ const skills = {
                         ],
         },
     {
-      title: "Cloud Infrastructure Service",
+      title: "Cloud Infrastructure Services",
     //      fileName: "FullStackImg",
       skills: [
         "Architect, deploy, and optimize cloud infrastructure solutions for scalability, performance, security, and cost-efficiency."

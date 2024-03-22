@@ -34,9 +34,6 @@ class SkillSection extends Component {
                   </h1>
                 </Fade>
                 <Fade left duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </Fade>
-                <Fade left duration={1500}>
                   <div>
                     {skill.skills.map((skillSentence) => {
                       return (
@@ -49,6 +46,9 @@ class SkillSection extends Component {
                       );
                     })}
                   </div>
+                </Fade>
+                <Fade left duration={1500}>
+                  <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
               </div>
             );
@@ -65,9 +65,6 @@ class SkillSection extends Component {
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </Fade>
                 <Fade right duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence) => {
@@ -81,6 +78,9 @@ class SkillSection extends Component {
                       );
                     })}
                   </div>
+                </Fade>
+                <Fade right duration={1500}>
+                  <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
               </div>
             );

@@ -256,6 +256,36 @@ const skills = {
                         ],
         },
     {
+                      title: "DevOps Practices & Tooling",
+                //      fileName: "designimg",
+                      skills: [
+                        "Implement and maintain DevOps practices and tools to automate SDLC, streamline collaboration between development and operations teams, and enhance deployment."
+                      ],
+                      softwareSkills: [
+                        {
+                          skillName: "Docker",
+                          fontAwesomeClassname: "simple-icons:docker",
+                          style: {
+                            color: "#1488C6",
+                          },
+                        },
+                        {
+                          skillName: "Atlassian Bitbucket",
+                          imageSrc: "bitbucket.png",
+                          style: {
+                            color: "#CC6699",
+                          },
+                        },
+                        {
+                          skillName: "Git",
+                          imageSrc: "git.png",
+                          style: {
+                            color: "#CC6699",
+                          },
+                        },
+                      ],
+                    },
+    {
       title: "Cloud Infrastructure Services",
     //      fileName: "FullStackImg",
       skills: [
@@ -282,36 +312,6 @@ const skills = {
             },
         ],
     },
-    {
-                  title: "DevOps Practices & Tooling",
-            //      fileName: "designimg",
-                  skills: [
-                    "Implement and maintain DevOps practices and tools to automate SDLC, streamline collaboration between development and operations teams, and enhance deployment."
-                  ],
-                  softwareSkills: [
-                    {
-                      skillName: "Docker",
-                      fontAwesomeClassname: "simple-icons:docker",
-                      style: {
-                        color: "#1488C6",
-                      },
-                    },
-                    {
-                      skillName: "Atlassian Bitbucket",
-                      imageSrc: "bitbucket.png",
-                      style: {
-                        color: "#CC6699",
-                      },
-                    },
-                    {
-                      skillName: "Git",
-                      imageSrc: "git.png",
-                      style: {
-                        color: "#CC6699",
-                      },
-                    },
-                  ],
-                },
     {
                   title: "Machine Learning Models",
             //      fileName: "DesignImg",

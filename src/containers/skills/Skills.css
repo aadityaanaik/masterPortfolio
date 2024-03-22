@@ -3,6 +3,14 @@
   overflow: hidden;
 }
 
+.skills-div-2 {
+  padding-left: 50px;
+}
+
+.skills-div-1 {
+  padding-right: 50px;
+}
+
 .skills-header {
   font-size: 60px;
   line-height: normal;

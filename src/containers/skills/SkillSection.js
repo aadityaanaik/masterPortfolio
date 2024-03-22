@@ -22,21 +22,44 @@ class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div>
-        {skills.data.map((skill) => {
-          return (
-            <div className="skills-main-div">
-              <Fade left duration={2000}>
-                <div className="skills-image-div">
-                  {/* <img
-                    alt="Aditya is Analysing Data"
-                    src={require(`../../assets/images/${skill.imagePath}`)}
-                  ></img> */}
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
-                </div>
-              </Fade>
+      <div className="skills-main-div">
+        {/* First Column */}
+        <div className="skills-column">
+          {skills.data1.map((skill) => {
+            return (
+              <div className="skills-div-1">
+                <Fade left duration={1000}>
+                  <h1 className="skills-heading" style={{ color: theme.text }}>
+                    {skill.title}
+                  </h1>
+                </Fade>
+                <Fade left duration={1500}>
+                  <SoftwareSkill logos={skill.softwareSkills} />
+                </Fade>
+                <Fade left duration={1500}>
+                  <div>
+                    {skill.skills.map((skillSentence) => {
+                      return (
+                        <p
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                        >
+                          {skillSentence}
+                        </p>
+                      );
+                    })}
+                  </div>
+                </Fade>
+              </div>
+            );
+          })}
+        </div>
 
-              <div className="skills-text-div">
+        {/* Second Column */}
+        <div className="skills-column">
+          {skills.data2.map((skill) => {
+            return (
+              <div className="skills-div-2">
                 <Fade right duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
@@ -60,12 +83,13 @@ class SkillSection extends Component {
                   </div>
                 </Fade>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     );
   }
 }
+
 
 export default SkillSection;

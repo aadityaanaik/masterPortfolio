@@ -18,24 +18,22 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Aditya Naik",
-  logo_name: "AdityaNaik",
   subTitle:
     "I'm on the prowl for roles that make data come to life – from crafting pipelines to diving into analysis. I'm the Sherlock Holmes of data, seeking out hidden stories. If you've got a challenge, I've got the skills!",
   resumeLink:
-    "https://drive.google.com/file/d/1nB1L6fKjJ0eOWvowtoUg2xWibNJSa4JF/view?usp=sharing",
-  githubProfile: "https://github.com/naikryder",
+    "https://drive.google.com/file/d/1nB1L6fKjJ0eOWvowtoUg2xWibNJSa4JF/view?usp=sharing"
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/naikryder",
+    link: "https://github.com/naikvaditya",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/adityavn/",
+    link: "https://www.linkedin.com/in/aadityaanaik/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -48,227 +46,303 @@ const socialMediaLinks = [
 ];
 
 const skills = {
-  data: [
+    data1: [
     {
-      title: "Data Engineering & Pipelines",
-      fileName: "FullStackImg",
+      title: "ETL/ELT Data Pipeline",
+    //      fileName: "DesignImg",
       skills: [
-        "⚡ Designing robust pipelines that extract, load, and transform data",
-        "⚡ Achieving lossless data transmission through techniques like micro-batching and watermark",
-        "⚡ Patching data streaming services through migration of message brokers",
+        "Design, implement, and maintain robust data pipelines to efficiently and reliably move data from various sources to its destination, ensuring data quality, timeliness, and scalability"
+      ],
+      softwareSkills: [
+                  {
+                            skillName: "Google Dataflow",
+                            imageSrc: "dataflow_logo.png",
+                            style: {
+                              color: "#E34F26",
+                            },
+                          },
+                  {
+                          skillName: "AWS Glue",
+                          imageSrc: "glue.png",
+                          style: {
+                            color: "#E34F26",
+                          },
+                        },
+                        {
+                                    skillName: "Apache Spark",
+                                    imageSrc: "spark.png",
+                                    style: {
+                                      color: "#E34F26",
+                                    },
+                                  },
+                                  {
+                                    skillName: "Apache Hadoop",
+                                    imageSrc: "hadoop.png",
+                                    style: {
+                                      color: "#1572B6",
+                                    },
+                                  },
+                                  {
+                                    skillName: "Apache Kafka",
+                                    imageSrc: "kafka.png",
+                                    style: {
+                                      color: "#CC6699",
+                                    },
+                                  },
+                ],
+    },
+    {
+              title: "Database Management",
+            //      fileName: "DesignImg",
+              skills: [
+                "Design, implement, and optimize databases to ensure efficient data storage, retrieval, and management, considering factors such as performance, scalability, security, and integrity"
+              ],
+              softwareSkills: [
+                {
+                      skillName: "Firebase",
+                      fontAwesomeClassname: "simple-icons:firebase",
+                      style: {
+                        color: "#FFCA28",
+                      },
+                    },
+                    {
+                      skillName: "PostgreSQL",
+                      fontAwesomeClassname: "simple-icons:postgresql",
+                      style: {
+                        color: "#336791",
+                      },
+                    },
+                    {
+                      skillName: "MongoDB",
+                      fontAwesomeClassname: "simple-icons:mongodb",
+                      style: {
+                        color: "#47A248",
+                      },
+                    },
+                    {
+                      skillName: "Google Big Query",
+                      imageSrc: "bigquery.png",
+                      style: {
+                        color: "#CC6699",
+                      },
+                    },
+                    {
+                      skillName: "SAP Sybase",
+                      imageSrc: "sybase.png",
+                      style: {
+                        color: "#CC6699",
+                      },
+                    },
+              ],
+            },
+    {
+              title: "Data Visualization & Reporting",
+        //      fileName: "DesignImg",
+              skills: [
+                "Develop visually compelling and interactive data visualizations and dashboards to communicate insights effectively to stakeholders"
+              ],
+              softwareSkills: [
+                          {
+                            skillName: "Tableau",
+                            imageSrc: "tableau.png",
+                            style: {
+                              color: "#CC6699",
+                            },
+                          },
+                          {
+                            skillName: "Microsoft PowerBi",
+                            imageSrc: "powerbi.png",
+                            style: {
+                              color: "#CC6699",
+                            },
+                          },
+                          {
+                            skillName: "Grafana",
+                            imageSrc: "grafana.png",
+                            style: {
+                              color: "#CC6699",
+                            },
+                          },
+                          {
+                            skillName: "Google Data Studio",
+                            imageSrc: "datastudio.png",
+                            style: {
+                              color: "#CC6699",
+                            },
+                          },
+                          {
+                            skillName: "Microsoft Excel",
+                            imageSrc: "excel.png",
+                            style: {
+                              color: "#CC6699",
+                            },
+                          },
+                        ],
+            },
+    {
+      title: "Programming Languages",
+    //      fileName: "DesignImg",
+      skills: [
+        "Crafting clean, maintainable, and efficient code across a diverse array of platforms and programming languages, ensuring the seamless development of robust and scalable software applications and systems"
       ],
       softwareSkills: [
         {
-          skillName: "Google Dataflow",
-          imageSrc: "dataflow_logo.png",
-          style: {
-            color: "#E34F26",
+            skillName: "Java",
+            imageSrc: "java.png",
+            style: {
+              color: "#E34F26",
+            },
           },
-        },
-        {
-          skillName: "Apache Spark",
-          imageSrc: "spark.png",
-          style: {
-            color: "#E34F26",
+          {
+            skillName: "Python",
+            imageSrc: "python.png",
+            style: {
+              color: "#1572B6",
+            },
           },
-        },
-        {
-          skillName: "Apache Hadoop",
-          imageSrc: "hadoop.png",
-          style: {
-            color: "#1572B6",
+          {
+            skillName: "C++",
+            imageSrc: "cpp.png",
+            style: {
+              color: "#CC6699",
+            },
           },
-        },
-        {
-          skillName: "Apache Kafka",
-          imageSrc: "kafka.png",
-          style: {
-            color: "#CC6699",
+          {
+            skillName: "JavaScript",
+            imageSrc: "javascript.png",
+            style: {
+              color: "#CC6699",
+            },
           },
-        },
-        {
-          skillName: "Apache Zookeeper",
-          imageSrc: "zookeeper.png",
-          style: {
-            color: "#CC6699",
+          {
+            skillName: "R",
+            imageSrc: "r.png",
+            style: {
+              color: "#CC6699",
+            },
           },
-        },
-        {
-          skillName: "Apache Flink",
-          imageSrc: "flink.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
       ],
     },
+    ],
+    data2: [
     {
-      title: "Data Analytics & Visualization",
-      fileName: "DataScienceImg",
+          title: "CI/CD Pipeline Automation",
+        //      fileName: "DataScienceImg",
+          skills: [
+            "Implement and automate CI/CD pipelines to streamline software delivery and deployment processes, ensuring rapid and reliable releases."
+          ],
+          softwareSkills: [
+                                 {
+                                    skillName: "TeamCity",
+                                    imageSrc: "teamcity.png",
+                                    style: {
+                                      color: "#CC6699",
+                                    }
+                                    },
+                          {
+                            skillName: "Jenkins",
+                            imageSrc: "jenkins.png",
+                            style: {
+                              color: "#CC6699",
+                            },
+                          },
+                          {
+                            skillName: "Terraform",
+                            imageSrc: "terraform.png",
+                            style: {
+                              color: "#CC6699",
+                            },
+                          },
+                        ],
+        },
+    {
+      title: "Cloud Infrastructure Service",
+    //      fileName: "FullStackImg",
       skills: [
-        "⚡ Working with dataframes to optimize data management for both Relational and NoSQL databases",
-        "⚡ Creating comprehensive operational reporting dashboards with plots and graphs",
-        "⚡ Generating visual representations of servers through parameters like health, memory and speed",
+        "Architect, deploy, and optimize cloud infrastructure solutions for scalability, performance, security, and cost-efficiency."
       ],
       softwareSkills: [
-        {
-          skillName: "Tableau",
-          imageSrc: "tableau.png",
-          style: {
-            color: "#CC6699",
+          {
+            skillName: "Google Cloud Platform",
+            imageSrc: "gcp.png",
+            style: {
+              color: "#CC6699",
+            },
           },
-        },
-        {
-          skillName: "Microsoft PowerBi",
-          imageSrc: "powerbi.png",
-          style: {
-            color: "#CC6699",
+          {
+            skillName: "Amazon Web Services",
+            fontAwesomeClassname: "simple-icons:amazonaws",
+            style: {
+              color: "#FF9900",
+            },
           },
-        },
-        {
-          skillName: "Grafana",
-          imageSrc: "grafana.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Google Data Studio",
-          imageSrc: "datastudio.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Microsoft Excel",
-          imageSrc: "excel.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-      ],
+            {
+              skillName: "Microsoft Azure",
+              imageSrc: "azure.png",
+            },
+        ],
     },
     {
-      title: "Database & Cloud Computing",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Defining intricate data models and devising advanced database designs",
-        "⚡ Optimizing query performance through partitioning, bucketing, and indexing strategies",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on cloud platforms",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Google Cloud Platform",
-          imageSrc: "gcp.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Amazon Web Services",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Google Big Query",
-          imageSrc: "bigquery.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "SAP Sybase",
-          imageSrc: "sybase.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-      ],
-    },
+                  title: "DevOps Practices & Tooling",
+            //      fileName: "designimg",
+                  skills: [
+                    "Implement and maintain DevOps practices and tools to automate SDLC, streamline collaboration between development and operations teams, and enhance deployment."
+                  ],
+                  softwareSkills: [
+                    {
+                      skillName: "Docker",
+                      fontAwesomeClassname: "simple-icons:docker",
+                      style: {
+                        color: "#1488C6",
+                      },
+                    },
+                    {
+                      skillName: "Atlassian Bitbucket",
+                      imageSrc: "bitbucket.png",
+                      style: {
+                        color: "#CC6699",
+                      },
+                    },
+                    {
+                      skillName: "Git",
+                      imageSrc: "git.png",
+                      style: {
+                        color: "#CC6699",
+                      },
+                    },
+                  ],
+                },
     {
-      title: "DevOps & CI-CD",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Building a CI-CD architecture and streamlining deployment strategy",
-        "⚡ Automating complex jobs through build scripts and APIs",
-        "⚡ Releasing and maintaining processes on virtual machine instances through deployment pipelines",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Jenkins",
-          imageSrc: "jenkins.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Terraform",
-          imageSrc: "terraform.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Atlassian Bitbucket",
-          imageSrc: "bitbucket.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Git",
-          imageSrc: "git.png",
-          style: {
-            color: "#CC6699",
-          },
-        },
-      ],
-    },
-  ],
-};
-
-// Education Page
-const competitiveSites = {
-  competitiveSites: [
-    //    {
-    //      siteName: "LeetCode",
-    //      iconifyClassname: "simple-icons:leetcode",
-    //      style: {
-    //        color: "#F79F1B",
-    //      },
-    //      profileLink: "https://leetcode.com/naik_ryder/",
-    //    },
-  ],
+                  title: "Machine Learning Models",
+            //      fileName: "DesignImg",
+                  skills: [
+                    "Apply statistical analysis, machine learning, and predictive modeling techniques to extract actionable insights from data, addressing complex business problems and driving data-driven decision-making processes"
+                  ],
+                  softwareSkills: [
+                    {
+                      skillName: "Sci-Kit Learn",
+                      imageSrc: "sci-kit.png",
+                      style: {
+                        color: "#1488C6",
+                      },
+                    },
+                    {
+                      skillName: "TensorFlow",
+                      imageSrc: "tensorflow.png",
+                      style: {
+                        color: "#1488C6",
+                      },
+                    },
+                    {
+                      skillName: "PyTorch",
+                      imageSrc: "pytorch.png",
+                      style: {
+                        color: "#1488C6",
+                      },
+                    },
+                  ],
+                },
+    ],
 };
 
 const degrees = {
@@ -526,7 +600,6 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
   certifications,
   experience,

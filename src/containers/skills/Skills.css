@@ -20,6 +20,7 @@
 
 .skills-text {
   font-size: 20px;
+  text-align: center;
 }
 
 .skills-text-div {
@@ -44,6 +45,7 @@
   font-family: "Google Sans Regular";
   line-height: normal;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 /* Media Query */
@@ -54,10 +56,8 @@
   .skills-header {
     font-size: 50px;
   }
-  /* .skills-image-div > img {
-    margin-top: 0px;
-  } */
 }
+
 @media (max-width: 768px) {
   .skills-heading {
     font-size: 30px;

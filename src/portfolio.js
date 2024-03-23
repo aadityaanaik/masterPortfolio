@@ -164,13 +164,6 @@ const skills = {
                             },
                           },
                           {
-                            skillName: "Google Data Studio",
-                            imageSrc: "datastudio.png",
-                            style: {
-                              color: "#CC6699",
-                            },
-                          },
-                          {
                             skillName: "Microsoft Excel",
                             imageSrc: "excel.png",
                             style: {

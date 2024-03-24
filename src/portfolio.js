@@ -54,21 +54,14 @@ const skills = {
         "Design, implement, and maintain robust data pipelines to efficiently and reliably move data from various sources to its destination, ensuring data quality, timeliness, and scalability"
       ],
       softwareSkills: [
-                  {
-                            skillName: "Google Dataflow",
-                            imageSrc: "dataflow_logo.png",
-                            style: {
-                              color: "#E34F26",
-                            },
-                          },
-                  {
-                          skillName: "AWS Glue",
-                          imageSrc: "glue.png",
-                          style: {
-                            color: "#E34F26",
-                          },
-                        },
-                        {
+                            {
+                                    skillName: "Databricks",
+                                    imageSrc: "databricks.png",
+                                    style: {
+                                      color: "#E34F26",
+                                    },
+                                  },
+                            {
                                     skillName: "Apache Spark",
                                     imageSrc: "spark.png",
                                     style: {

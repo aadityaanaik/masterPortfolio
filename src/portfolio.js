@@ -21,7 +21,7 @@ const greeting = {
   subTitle:
     "I'm on the prowl for roles that make data come to life – from crafting pipelines to diving into analysis. I'm the Sherlock Holmes of data, seeking out hidden stories. If you've got a challenge, I've got the skills!",
   resumeLink:
-    "https://drive.google.com/file/d/1S0hcYfLNsUahAgK5gFHfRPDwNHsYo6z_/view?usp=sharing"
+    "https://drive.google.com/file/d/1S3_2QCKUUo1S9LwWQxpBrxOcIvMkrEIY/view?usp=sharing"
 };
 
 const socialMediaLinks = [

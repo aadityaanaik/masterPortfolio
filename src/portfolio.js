@@ -395,12 +395,25 @@ const experience = {
       work: true,
       experiences: [
         {
+            title: "Data Engineer",
+            company: "TikTok",
+            company_url:
+              "https://www.tiktok.com",
+            logo_path: "tiktok_logo.png",
+            duration: "October 2024 - Present",
+            location: "Bellevue, Washington",
+            description: [
+              "",
+            ],
+            color: "#9b1578",
+          },
+        {
           title: "Graduate Research Assistant",
           company: "Texas A&M University",
           company_url:
             "https://teilab-static.arch.tamu.edu/quek/TITIL/index.html",
           logo_path: "tamu_logo.png",
-          duration: "September 2022 - Present",
+          duration: "September 2022 - September 2024",
           location: "College Station, Texas",
           description: [
             "Conducted data-driven research, developed scalable database architectures, and applied analytical techniques to drive efficiency and innovation, enhancing data management and supporting the lab's objectives.",

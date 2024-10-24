@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "naikryder",
+  "name": "aadityaanaik",
   "version": "0.1.0",
-  "homepage": "https://naikryder.github.io",
+  "homepage": "https://aadityaanaik.github.io",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",

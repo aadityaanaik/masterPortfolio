@@ -27,6 +27,9 @@ export default class Main extends Component {
               <Route
                 path="/home"
                 render={(props) => <Home {...props} theme={this.props.theme} />}
+                render={(props) => (
+                                  <Education {...props} theme={this.props.theme} />
+                                )}
               />
               <Route
                 path="/experience"
@@ -39,24 +42,6 @@ export default class Main extends Component {
                 path="/education"
                 render={(props) => (
                   <Education {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/opensource"
-                render={(props) => (
-                  <Opensource {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/contact"
-                render={(props) => (
-                  <Contact {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/splash"
-                render={(props) => (
-                  <Splash {...props} theme={this.props.theme} />
                 )}
               />
               <Route

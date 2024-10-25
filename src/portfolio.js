@@ -406,7 +406,7 @@ const experience = {
               "",
             ],
             color: "#9b1578",
-          },
+        },
         {
           title: "Graduate Research Assistant",
           company: "Texas A&M University",
